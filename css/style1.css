@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* bleu clair : #3498DB;*/
+/* bleu foncé : #2B414F; */
+/* maron clair : #9C7236; */
+/* maron foncé : #4F402B; */
+body {
+    font-family: 'Raleway', sans-serif;
+    /*background: #deebef;*/
+    /*color: #34495e;*/
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #2B414F;
+    text-decoration: none;
+}
+.separator{
+    height: 3px;
+    width: 5%;
+    boder :none;
+    box-shadow: none;
+    background-color: #3498DB;
+    margin-bottom: 3%;
+
+
+}
+/* header */
+h1{
+    padding: 4% 0 1% 0;
+}
+/* tableau */
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+    text-align: center;
+}
+/* menu */
+.nav-custom{
+    background-color: #3498DB;
+ }
+/* livre */
+.liste-livres{
+    /*background-color: #3498DB;
+    color:#ffffff;*/
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.item-livre{
+    /*border:1px solid #3498DB;
+    border-radius: 10px;*/
+}
+.livres h2{
+    color: #2B414F;
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 3%;
+}
+.item-livre img{
+    float: right;
+    width: 100px;
+    height: 170px;
+    box-shadow: 2px 2px 20px #9C7236;
+}
+/* affichage du livre */
+.id{
+    line-height: 20PX;
+}
+.genre{
+    line-height: 40px;
+}
+.auteur{
+    line-height: 25px;
+    font-size: 15px;
+    color:#4F402B;
+    text-shadow: 3px 2px 2px #9C7236;
+
+}
+.prix{
+    line-height: 50px;
+}
+.resume{
+    padding-bottom: 2%;
+}

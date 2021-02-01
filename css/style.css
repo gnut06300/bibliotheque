@@ -1,0 +1,193 @@
+@charset "UTF-8";
+/* bleu clair : #3498DB;*/
+/* bleu foncé : #2B414F; */
+/* maron clair : #9C7236; */
+/* maron foncé : #4F402B; */
+body {
+    font-family: 'Raleway', sans-serif;
+    /*background: #deebef;
+    color: #34495e;*/
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #2B414F;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #3498DB;
+
+}
+.separator{
+    height: 3px;
+    width: 7%;
+    boder :none;
+    box-shadow: none;
+    background-color: #3498DB;
+    margin-bottom: 3%;
+
+
+}
+/* menu */
+/*.nav-custom form{
+    float: right;
+}*/
+.formulaire{
+    float: right;
+}
+
+.nav-custom .btn-custom{
+    background-color: #9C7236;
+    color: #ffffff;
+}
+/* search */
+.resultats{
+    margin : 0 auto;
+    color: #9C7236;
+}
+/* header */
+h1{
+    padding: 4% 0 1% 0;
+
+}
+/* tableau */
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+    text-align: center;
+}
+/* menu */
+.nav-custom{
+    background-color: #3498DB;
+ }
+/* livre */
+.liste-livres{
+    /*background-color: #3498DB;
+    color:#ffffff;*/
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.livres h2{
+    color: #2B414F;
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 3%;
+    text-shadow: 2px 2px 2px #9C7236;
+}
+.item-livre{
+    padding-bottom: 25px;
+    /*border:1px solid #3498DB;
+    border-radius: 10px;*/
+}
+.item-livre img{
+    float: right;
+    width: 100px;
+    height: 170px;
+    box-shadow: 2px 2px 20px #9C7236;
+}
+.item-livre img:hover{
+    transform: scale(1.5,1.5);
+    transition: 2.3s;
+}
+/* affichage du livre */
+.id{
+    line-height: 20PX;
+}
+.genre{
+    line-height: 40px;
+}
+.auteur{
+    line-height: 25px;
+    font-weight: bold ;
+    color:#4F402B;
+    
+
+}
+.prix{
+    line-height: 50px;
+}
+.resume{
+    padding-bottom: 2%;
+}
+/* liste des membres */
+.item-pers h2{
+    padding: 25px 0 20px 0;
+    color: #3498DB;
+
+}
+.item-pers{
+    padding:10px 10px 10px 10px;
+}
+.item-pers img{
+    float: right;
+    width: 170px;
+    height: 230px;
+    box-shadow: 2px 2px 20px #9C7236;
+}
+.idpers{
+    line-height: 110px;
+}
+.ville{
+    line-height: 130px;
+}
+/* liste des emprunts */
+.item-emprunt{
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+.emprunts h2{
+    color: #2B414F;
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 3%;
+    text-shadow: 2px 2px 2px #9C7236;
+}
+.profil_emp{
+    float: left;
+    width: 80px;
+    height: 109px;
+
+}
+.cover_emp{
+    float: right;
+    width: 100px;
+    height: 170px;
+    box-shadow: 2px 2px 20px #9C7236;
+}
+.id_livre_emp{
+    text-align: center;
+}
+.auteur_emp{
+    text-align: center;
+}
+.id_pers{
+    text-align: center;
+}
+.nom_pers{
+    text-align: center;
+}
+/* contact */
+.formulaire_site{
+    margin: 0 auto ;
+}
+.alert{
+    text-align: center;
+    color : red;
+}
+.cover_emp:hover{
+    transform: scale(1.5,1.5);
+    transition: 2.3s;
+
+}
